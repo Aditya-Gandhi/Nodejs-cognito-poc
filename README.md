@@ -1,4 +1,4 @@
-<img src="https://github.com/damiancipolat/Nodejs-cognito-poc/blob/master/doc/logo.png?raw=true" width="200px" align="right" />
+<img src="https://github.com/damiancipolat/Nodejs-cognito-poc/blob/master/doc/logo.png?raw=true" width="150px" align="right" />
 
 # Nodejs cognito poc
 A simple poc to make authentication operations with cognito and nodejs, using amazon-cognito-identity-js module.
