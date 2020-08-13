@@ -16,7 +16,7 @@ Register user
                 AccesToken
                     jwtToken
                     payload:{
-                    sub (cognito uuid)
+                       sub (cognito uuid)
                     }
             Error
                 Not authorized
