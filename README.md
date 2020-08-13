@@ -1,14 +1,14 @@
 # Nodejs-cognito-poc
 A simple poc to make authentication operations with cognito and nodejs, using amazon-cognito-identity-js module.
 
-## Install
+### Install
 To install the project run this command:
 
 ```console
 $npm install
 ```
 
-## Configure
+### Configure
 Edit the file **constants.js**.
 
 ```console
