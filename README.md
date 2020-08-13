@@ -1,6 +1,6 @@
 <img src="https://github.com/damiancipolat/Nodejs-cognito-poc/blob/master/doc/logo.png?raw=true" width="100px" align="right" />
 
-# Nodejs cognito poc
+# Nodejs AWS COGNITO poc
 A simple poc to make authentication operations with cognito and nodejs, using amazon-cognito-identity-js module.
 
 ### Install
