@@ -1,6 +1,7 @@
 # Nodejs-cognito-poc
 A simple poc to make authentication operations with cognito and nodejs, using amazon-cognito-identity-js module.
 
+```console
 Register user
     Verify the code received in the email
         Expired?
@@ -22,3 +23,4 @@ Register user
         Si
             Resend Code
             Go to verify
+```
