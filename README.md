@@ -9,7 +9,7 @@ $npm install
 ```
 
 ### Configure
-Edit the file **constants.js**.
+Edit the file **constants.js** with your cognito user pool.
 
 ```console
 const poolData = {
@@ -17,6 +17,9 @@ const poolData = {
   ClientId: "xxxxxxxxxxxxxxxxxxxxxxxxx",
 };
 ```
+
+### Basic flow
+Follow this flow to understand the events of a login workflow using cognito.
 
 ```console
 Register user
@@ -41,3 +44,14 @@ Register user
             Resend Code
             Go to verify
 ```
+
+### Cognito user
+Datos requeridos:
+  - Attributes -> standard required.
+  - Son adicionales al username y password.
+  - Email:
+  	- Puede configurarse que sea necesario validar el email del usuario, si es asi se habilita el resetear contraseña.
+  	- Se configura en Pool -> MFA and verifications -> Which attributes do you want to verify?
+  	- Puede configurarse la forma en como se recupera la password.
+  - SMS:
+  	- Puede setearse la validación del numero de telefono si es seteado como requerido.
